@@ -1,0 +1,13 @@
+.clue{
+    width: 100%;
+    text-align: center;
+}
+
+.choice_button{
+    border: solid 1px black;
+    border-radius: .25rem;    
+}
+
+.choice_button:hover{
+    background-color: aliceblue;
+}
