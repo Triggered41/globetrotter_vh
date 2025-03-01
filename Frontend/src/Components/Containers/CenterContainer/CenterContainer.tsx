@@ -9,7 +9,7 @@ interface centerContainerProps{
 
 export const CenterContainer = ({horizontal=true, vertical, children}: centerContainerProps) => {
     return (
-        <div className={style.center_container} style={{justifyContent: horizontal ?'center':'start'}}>
+        <div className={style.center_container} style={{justifyContent: vertical?'center':'start', alignItems: horizontal ?'center':'start'}}>
             {children}
         </div>
     )

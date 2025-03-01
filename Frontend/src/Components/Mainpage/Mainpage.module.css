@@ -1,13 +1,63 @@
+body{
+   margin: 0;
+   padding: 0; 
+}
+
 .clue{
     width: 100%;
     text-align: center;
 }
 
 .choice_button{
-    border: solid 1px black;
+    background-color: transparent;
+
+    color: #EEE;
+    font-size: 2rem;
+
+    border: solid 1px #EEE;
     border-radius: .25rem;    
 }
 
 .choice_button:hover{
-    background-color: aliceblue;
+    background-color: #EEE;
+    color: royalblue;
+}
+.choice_button:active{
+    scale: .975;
+}
+
+.main_page{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    color: #EEE;
+}
+
+.clue{
+    text-align: left;
+}
+
+.holder{
+    width: 50vw;
+    height: 60vh;
+
+    margin-top: 5rem;
+    padding: 3rem;
+    text-align: left;
+
+    border-radius: 1rem;
+
+    background-color: royalblue;
+}
+
+@media screen and (max-width: 600px) {
+    .clue{
+        font-size: 1rem;
+    }
+
+    .choice_button{
+        font-size: larger;
+    }
 }
