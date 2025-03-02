@@ -9,7 +9,8 @@ body{
 }
 
 .choice_button{
-    background-color: transparent;
+    pointer-events: all;
+    background-color: royalblue;
 
     color: #EEE;
     font-size: 2rem;
@@ -40,6 +41,7 @@ body{
 }
 
 .holder{
+    position: relative;
     width: 50vw;
     height: 60vh;
 
@@ -52,6 +54,80 @@ body{
     background-color: royalblue;
 }
 
+.result_card{
+    pointer-events: none;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    transform: translateY(120vh);
+    transition: all 1s;
+}
+.result_card p, .result_card h4{
+    margin: 0;
+    padding: 0;
+}
+.result_card h4{
+    font-size: 2rem;
+}
+
+.result{
+    text-align: center;
+    padding: 3rem;
+    background-color: #EEE;
+    color: royalblue;
+
+    border-radius: 1rem;
+}
+
+.reveal{
+    transform: translateY(0);
+}
+
+.share_card{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+    width: 100vw;
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: royalblue;
+    text-align: center;
+    transform: translateY(100vh);
+}
+
+.share{
+    width: 25rem;
+    background-color: #EEE;
+    min-height: 25rem;
+
+    border-radius: 1rem;
+    /* height: ; */
+}
+
+.share_button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.img{
+    min-width: 15rem;
+    min-height: 15rem;
+
+    border: solid 2px black;
+}
+
+
 @media screen and (max-width: 600px) {
     .clue{
         font-size: 1rem;
@@ -59,5 +135,9 @@ body{
 
     .choice_button{
         font-size: larger;
+    }
+
+    .result_card h4{
+        font-size: 1rem ;
     }
 }

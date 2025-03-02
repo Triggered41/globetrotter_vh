@@ -31,11 +31,14 @@ const pickChoices = (choices) => {
 const assignAnswer = (choices, answer) => {
     let answerId = pickRandom(4) 
     let answeredChoices = choices
+    if (answeredChoices[answerId] == answer) return answeredChoices
+
     answeredChoices[answerId] = answer
     return answeredChoices
 }
 
 export {
+    pickRandom as pickRandom,
     pickCity as pickCity,
     pickClues as pickClues,
     pickChoices as pickChoices,

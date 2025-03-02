@@ -12,6 +12,10 @@ export async function getQuestion(){
         })    
 }
 
+export async function getQR() {
+    return fetch(requestPath("getQR"))
+}
+
 function requestPath(endPoint: string){
     return `${URL}/${endPoint}`
 }

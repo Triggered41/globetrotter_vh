@@ -1,50 +1,182 @@
 [
-    {
-      "city": "Paris",
-      "country": "France",
-      "clues": [
-        "This city is home to a famous tower that sparkles every night.",
-        "Known as the 'City of Love' and a hub for fashion and art."
-      ],
-      "fun_fact": [
-        "The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!",
-        "Paris has only one stop sign in the entire city—most intersections rely on priority-to-the-right rules."
-      ],
-      "trivia": [
-        "This city is famous for its croissants and macarons. Bon appétit!",
-        "Paris was originally a Roman city called Lutetia."
-      ]
-    },
-    {
-      "city": "Tokyo",
-      "country": "Japan",
-      "clues": [
-        "This city has the busiest pedestrian crossing in the world.",
-        "You can visit an entire district dedicated to anime, manga, and gaming."
-      ],
-      "fun_fact": [
-        "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today!",
-        "More than 14 million people live in Tokyo, making it one of the most populous cities in the world."
-      ],
-      "trivia": [
-        "The city has over 160,000 restaurants, more than any other city in the world.",
-        "Tokyo’s subway system is so efficient that train delays of just a few minutes come with formal apologies."
-      ]
-    },
-    {
-      "city": "New York",
-      "country": "USA",
-      "clues": [
-        "Home to a green statue gifted by France in the 1800s.",
-        "Nicknamed 'The Big Apple' and known for its Broadway theaters."
-      ],
-      "fun_fact": [
-        "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
-        "Times Square was once called Longacre Square before being renamed in 1904."
-      ],
-      "trivia": [
-        "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
-        "The Empire State Building has its own zip code: 10118."
-      ]
-    }
-  ]
+  {
+    "city": "Paris",
+    "country": "France",
+    "clues": [
+      "This city is home to a famous tower that sparkles every night.",
+      "Known as the 'City of Love' and a hub for fashion and art.",
+      "You can find a world-renowned museum with the Mona Lisa.",
+      "This city’s metro system is one of the busiest in Europe."
+    ],
+    "fun_fact": [
+      "The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!",
+      "Paris has only one stop sign in the entire city—most intersections rely on priority-to-the-right rules.",
+      "Paris is home to over 70 art museums, including the Musée d'Orsay and the Centre Pompidou.",
+      "The city is often called the 'City of Lights' because it was one of the first to have street lighting."
+    ],
+    "trivia": [
+      "This city is famous for its croissants and macarons. Bon appétit!",
+      "Paris was originally a Roman city called Lutetia."
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "clues": [
+      "This city has the busiest pedestrian crossing in the world.",
+      "You can visit an entire district dedicated to anime, manga, and gaming.",
+      "Home to the world’s tallest tower, Tokyo Skytree.",
+      "This city has a famous temple, Senso-ji, that dates back to 628 AD."
+    ],
+    "fun_fact": [
+      "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today!",
+      "More than 14 million people live in Tokyo, making it one of the most populous cities in the world.",
+      "Tokyo has over 1,500 vending machines offering everything from drinks to fresh eggs.",
+      "Tokyo Disneyland is the first Disney park to be built outside the U.S."
+    ],
+    "trivia": [
+      "The city has over 160,000 restaurants, more than any other city in the world.",
+      "Tokyo’s subway system is so efficient that train delays of just a few minutes come with formal apologies."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters.",
+      "Famous for its Central Park, a large urban park in the heart of Manhattan.",
+      "This city is a major global hub for finance and commerce."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904.",
+      "New York City was originally called New Amsterdam when it was founded by the Dutch.",
+      "The Empire State Building has its own zip code: 10118."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "Central Park spans over 843 acres and has more than 25,000 trees."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city is home to the famous British monarchy and Buckingham Palace.",
+      "It has a giant clock tower known as Big Ben (which is actually the bell!).",
+      "You can visit a large museum with the Rosetta Stone and Egyptian mummies.",
+      "Known for its iconic red double-decker buses and black cabs."
+    ],
+    "fun_fact": [
+      "London was once the largest city in the world, during the 19th century.",
+      "The River Thames has a total length of about 215 miles.",
+      "London is home to the world’s oldest underground railway system, the Tube.",
+      "The city has over 300 languages spoken within its boundaries."
+    ],
+    "trivia": [
+      "London's Heathrow Airport is the busiest in Europe.",
+      "The London Eye is a giant Ferris wheel and was the world’s tallest for a decade."
+    ]
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "clues": [
+      "This city is known for its ancient amphitheater, the Colosseum.",
+      "Home to the smallest country in the world, Vatican City.",
+      "You can walk through the remains of an ancient forum that was once the center of Roman public life.",
+      "The city is famous for its beautiful fountains, including the Trevi Fountain."
+    ],
+    "fun_fact": [
+      "Rome’s city center is home to over 280 fountains.",
+      "The Colosseum could hold up to 80,000 spectators in ancient times.",
+      "The Pantheon is the largest unreinforced concrete dome in the world.",
+      "Rome has more fountains than any other city in the world."
+    ],
+    "trivia": [
+      "Rome is over 2,700 years old, and was founded in 753 BC.",
+      "The first modern Olympic Games were held in Rome in 1960."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "This city is home to an iconic opera house with a sail-like design.",
+      "The harbor here is known for its stunning beauty and has a famous bridge.",
+      "You can visit the famous Bondi Beach for surfing and sunbathing.",
+      "This city hosted the 2000 Summer Olympics."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House’s distinctive design was inspired by a peeled orange.",
+      "Sydney Harbour is one of the deepest natural harbors in the world.",
+      "The city is home to one of the world’s most famous zoos, Taronga Zoo.",
+      "Sydney has more than 70 beaches."
+    ],
+    "trivia": [
+      "The Sydney Harbour Bridge is often called the ‘Coathanger’ because of its shape.",
+      "Sydney’s Royal Botanic Garden covers 30 hectares and is one of the oldest scientific institutions in Australia."
+    ]
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "clues": [
+      "The city is known for the remains of a wall that once divided East and West Germany.",
+      "Home to the Brandenburg Gate, a symbol of reunification.",
+      "This city is a hub for modern art, fashion, and tech startups.",
+      "It has one of the largest public parks in Europe, Tiergarten."
+    ],
+    "fun_fact": [
+      "Berlin has more bridges than Venice.",
+      "It has more than 180 museums and galleries.",
+      "The Berlin Zoo is one of the oldest and most visited zoos in Germany.",
+      "Berlin is known for its vibrant nightlife and electronic music scene."
+    ],
+    "trivia": [
+      "The Berlin Wall stood for 28 years, from 1961 to 1989.",
+      "Berlin is one of Europe’s most bike-friendly cities."
+    ]
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "clues": [
+      "This city is home to the tallest building in the world, the Burj Khalifa.",
+      "You can shop in one of the world’s largest malls, the Dubai Mall.",
+      "Famous for its luxurious resorts and desert safaris.",
+      "This city has an artificial palm-shaped island known as Palm Jumeirah."
+    ],
+    "fun_fact": [
+      "Dubai is home to the world’s largest indoor ski resort, Ski Dubai.",
+      "The Burj Khalifa is more than 828 meters tall, nearly twice as tall as the Empire State Building.",
+      "The Dubai Fountain is the largest choreographed fountain system in the world.",
+      "Dubai has no natural rivers, yet it has an impressive canal system."
+    ],
+    "trivia": [
+      "Dubai has one of the highest numbers of construction cranes in the world.",
+      "The Dubai Mall has an aquarium and underwater zoo, housing thousands of marine animals."
+    ]
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "clues": [
+      "This city is known for its iconic flat-topped mountain, Table Mountain.",
+      "You can visit Robben Island, where Nelson Mandela was imprisoned.",
+      "The city is a hub for wine production and has a famous wine route.",
+      "It is known for its stunning beaches, including Camps Bay."
+    ],
+    "fun_fact": [
+      "Cape Town is one of the oldest cities in South Africa, founded in 1652.",
+      "Table Mountain is one of the New7Wonders of Nature.",
+      "Cape Town’s Kirstenbosch National Botanical Garden is home to the unique Cape flora.",
+      "The city is situated at the meeting point of two oceans, the Atlantic and the Indian."
+    ],
+    "trivia": [
+      "Cape Town is considered the 'Mother City' of South Africa.",
+      "The city was once home to the only penguin colony on the African mainland."
+    ]
+  }
+]

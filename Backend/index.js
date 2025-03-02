@@ -4,6 +4,7 @@ import fs from 'fs'
 import { assignAnswer, pickChoices, pickCity, pickClues } from './utils/pickRandom.js'
 import jwt from 'jsonwebtoken'
 import 'dotenv/config'
+import { generateQR } from './QRgen/gen.js'
 
 const app = express()
 app.use(cors())
@@ -19,8 +20,7 @@ app.get("/getQuestion", (req, res)=>{
     const answeredChoices = assignAnswer(pickedChoices, city['city'])
 
     const payload = { cityId: cityId }
-    console.log("Pl: ", payload)
-    const token = jwt.sign(payload, "hola")
+    const token = jwt.sign(payload, process.env.JWT_SECRET)
 
     res.send(JSON.stringify({
         token: token,
@@ -29,14 +29,21 @@ app.get("/getQuestion", (req, res)=>{
     }))
 })
 
+app.get("/getQR", (req, res) => {
+    // console.log("Cl")
+    const qrRes = generateQR("https://vehdathamid-vh.web.app")
+    qrRes.then(data => {
+        console.log(data)
+        res.json({src: data.output.output_images[0]})
+    })
+
+})
+
 app.post("/submitAnswer", (req, res) => {
     const cityId = jwt.decode(req.body.token)["cityId"]
     const answer = req.body.answer
 
-    if (answer === test_ds[cityId]['city']){
-        console.log("OKOK")
-    }
-    console.log(req.body)
+    res.json({result: answer === test_ds[cityId]['city'], fact: test_ds[cityId]['fun_fact']})
 })
 
 const PORT = process.env.PORT
